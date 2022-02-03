@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Recursos/boton-guardar.png</file>
+        <file>Recursos/perdida-de-peso.png</file>
+        <file>Recursos/calculadora.png</file>
+    </qresource>
+</RCC>

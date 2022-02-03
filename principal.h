@@ -2,6 +2,7 @@
 #define PRINCIPAL_H
 
 #include <QMainWindow>
+#include <Qpainter>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Principal; }
@@ -17,5 +18,7 @@ public:
 
 private:
     Ui::Principal *ui;
+    QPixmap lienzo;
+    void dibujarRect();
 };
 #endif // PRINCIPAL_H
